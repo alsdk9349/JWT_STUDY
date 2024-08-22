@@ -1,0 +1,12 @@
+[versions]
+springBoot = "3.1.0"
+springSecurity = "6.3.0"
+
+[libraries]
+springBootStarterWeb = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "springBoot" }
+springBootStarterOAuth2ResourceServer = { module = "org.springframework.boot:spring-boot-starter-oauth2-resource-server", version.ref = "springBoot" }
+springSecurityTest = { module = "org.springframework.security:spring-security-test", version.ref = "springSecurity" }
+
+[plugins]
+org.springframework.boot = { id = "org.springframework.boot", version = "3.1.0" }
+io.spring.dependency.management = { id = "io.spring.dependency-management", version = "1.0.15.RELEASE" }
