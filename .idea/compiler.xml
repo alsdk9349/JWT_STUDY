@@ -2,7 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="jwt_study" target="17" />
+      <module name="JWT.main" target="17" />
+      <module name="JWT.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
